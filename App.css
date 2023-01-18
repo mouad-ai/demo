@@ -1,0 +1,72 @@
+/*styling.css*/
+/*add font family, background image*/
+
+body {
+  color: #5bc0de;
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-map-marker-alt,
+.fa-dot-circle {
+  color: #5bc0de;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-color: transparent;
+  margin: 0;
+  padding: 10px;
+}
+
+.jumbotron h1 {
+  letter-spacing: 2.5px;
+  font-size: 3.5em;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-align: center;
+}
+
+/*map*/
+#googleMap {
+  width: 80%;
+  height: 600px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+/*output box*/
+#output {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px auto;
+}
+
+#mode {
+  color: black;
+}
+#container{
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+.form-horizontal{
+  color: black;
+  padding: 40px;
+  display: flex;
+  justify-content: center; 
+        align-items: stretch;
+        gap: 10px;
+}
+.input{
+  padding: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#button{
+  background-color:rgb(150, 157, 157);
+
+}
